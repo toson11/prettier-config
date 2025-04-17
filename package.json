@@ -1,0 +1,22 @@
+{
+  "name": "@tuxinlab/prettier-config",
+  "version": "1.0.1",
+  "description": "通用 prettier 格式化配置",
+  "homepage": "https://github.com/toson11/prettier-config",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": "longtuxin iamtoson@outlook.com",
+  "license": "MIT",
+  "scripts": {
+    "release": "npm version patch && npm publish --access public && git push && git push --tags"
+  }
+}
