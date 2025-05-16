@@ -4,10 +4,9 @@ module.exports = {
   jsxSingleQuote: true,
   semi: true,
   printWidth: 100,
-  trailingComma: "all",
+  trailingComma: 'all',
   useTabs: false,
-  htmlWhitespaceSensitivity: "strict",
-  jsxBracketSameLine: false,
+  htmlWhitespaceSensitivity: 'strict',
   bracketSpacing: true,
-  arrowParens: "avoid",
+  arrowParens: 'avoid',
 };
